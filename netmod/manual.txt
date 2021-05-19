@@ -1,0 +1,17 @@
+check if u have ifconfig (IF U DONT HAVE IT DO:
+   
+ sudo apt install net-tools
+
+)
+
+1. + Compile all:
+make all
++ clean all:
+make clean
+
+2. ++ to check kernel logs in console
+tail -f /var/log/kern.log
+3. ++ installing module to kernel
+sudo insmod netmod.ko
+4. u ll see how sys send packeges to ur driver
+5. check ifconfig (ur interface in ifconfig named myNetDv) u ll see how pgs grows...
